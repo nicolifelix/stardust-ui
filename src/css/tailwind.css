@@ -1,0 +1,69 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --primaryLight: #78CBBE;
+  --primaryNormal:#00BEA1; 
+  --primaryDark:  #006556;
+  --orangeDark:   #EA7938;
+  --orangeNormal: #FEA571;
+  --orangeLight:  #FFBA92;
+  --pinkLight:    #F39BFF;
+  --pinkNormal:   #D266E1;
+  --pinkDark:     #D049E2;
+  --greenLight:   #6CC0A4;
+  --greenNormal:  #00BA7B;
+  --greenDark:    #089968;
+  --blueLight:    #699CAC;
+  --blueNormal:   #154351;
+  --blueDark:     #0C2D37;
+  --success:      #00BEA1;
+  --danger:       #F55F5F;
+  --warning:      #FF814B;
+  --inactive:     #A7A5A5;
+  --white:        #FFFFFF;
+  --black:        #000000;
+  --background:   #E8E9EB;
+  --bgDark:       #282936;
+  --grey100:      #E8E9EB;
+  --grey200:      #DBDBDC;
+  --grey300:      #CACACC;
+  --grey400:      #B4B4B5;
+  --grey500:      #A5A5A6;
+  --grey600:      #929294;
+  --grey700:      #858585;
+  --grey800:      #6B6A6A;
+  --grey900:      #484847;
+  --shadowGrey:   #0d40501c;
+  --shadowGreen:  rgb(13, 64, 80, 16%);
+  --shadowRed:    rgb(13, 64, 80, 16%);
+}
+
+.greyBox{
+  align-items: center;
+  background-color: var(--background);
+  box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
+  -0.3rem -0.3rem 0.6rem var(--white);
+  border-radius: 0.625rem;
+  border: none;
+  display: flex;
+  width: 12rem;
+  height: 12rem;
+  justify-content: center;
+  padding: 10px;  
+}
+
+object{
+  width: 100%;
+  height: 100vh;
+}
+hr{
+  color: var(--grey900);
+}
