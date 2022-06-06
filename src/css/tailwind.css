@@ -67,3 +67,11 @@ object{
 hr{
   color: var(--grey900);
 }
+
+.highlight{
+  width: 900px;
+}
+
+.colorBox{
+ 
+}
