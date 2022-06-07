@@ -48,7 +48,7 @@ module.exports = {
       xxl:    ['18px', { lineHeight: '32px', letterSpacing: '-0.02em' }],
       xxxl:   ['20px', { lineHeight: '32px', letterSpacing: '-0.02em' }],
       xxxxl:  ['22px', { lineHeight: '32px', letterSpacing: '-0.02em' }],
-      title:  ['16px', { lineHeight: '32px', letterSpacing: '0.06em'  }],
+      title:  ['14px', { lineHeight: '32px', letterSpacing: '0.15em'  }],
       label:  ['14px', { lineHeight: '32px', letterSpacing: '-0.02em' }],
     },
     fontFamily: {
