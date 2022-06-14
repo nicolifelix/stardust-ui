@@ -41,15 +41,13 @@ module.exports = {
       grey900:      '#484847'
     },
     fontSize:{
-      xs:     ['10px', { lineHeight: '16px', letterSpacing: '-0.02em' }],
-      sm:     ['13px', { lineHeight: '20px', letterSpacing: '0.00em'  }],
-      lg:     ['14px', { lineHeight: '28px', letterSpacing: '-0.02em' }],
-      xl:     ['16px', { lineHeight: '32px', letterSpacing: '-0.02em' }],
-      xxl:    ['18px', { lineHeight: '32px', letterSpacing: '-0.02em' }],
-      xxxl:   ['20px', { lineHeight: '32px', letterSpacing: '-0.02em' }],
-      xxxxl:  ['22px', { lineHeight: '32px', letterSpacing: '-0.02em' }],
-      title:  ['14px', { lineHeight: '32px', letterSpacing: '0.15em'  }],
-      label:  ['14px', { lineHeight: '32px', letterSpacing: '-0.02em' }],
+      xs:     ['11px', { lineHeight: '16px', letterSpacing: '0.04em' }],
+      sm:     ['13px', { lineHeight: '20px', letterSpacing: '0.04em'  }],
+      md:     ['14px', { lineHeight: '20px', letterSpacing: '0.04em' }],
+      lg:     ['16px', { lineHeight: '22px', letterSpacing: '0.04em' }],
+      xl:     ['18px', { lineHeight: '24px', letterSpacing: '-0.01em' }],
+      xxl:    ['20px', { lineHeight: '24px', letterSpacing: '-0.01em' }],
+      xxxl:   ['22px', { lineHeight: '26px', letterSpacing: '-0.01em' }],
     },
     fontFamily: {
       nunito: 'Nunito'

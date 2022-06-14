@@ -731,8 +731,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
+.px-80{
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
 .pl-0{
   padding-left: 0px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-justify{
+  text-align: justify;
 }
 
 .font-nunito{
@@ -742,19 +759,43 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sm{
   font-size: 13px;
   line-height: 20px;
-  letter-spacing: 0.00em;
-}
-
-.text-title{
-  font-size: 14px;
-  line-height: 32px;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.04em;
 }
 
 .text-xs{
-  font-size: 10px;
+  font-size: 11px;
   line-height: 16px;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.04em;
+}
+
+.text-xxxl{
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+}
+
+.text-xxl{
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.text-xl{
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.text-lg{
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+}
+
+.text-md{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
 }
 
 .font-bold{

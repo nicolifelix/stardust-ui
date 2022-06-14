@@ -10,4 +10,4 @@
 
 
 ## Contributing
-- The project is not well structured for contributions right now, if you find a bug, please [open an issue](https://github.com/nicolifelix/stardust-ui/issues) and let's discuss how to implement it :).
+- The project is not well structured for contributions right now, if you find a bug, please [open an issue](https://github.com/nicolifelix/stardust-ui/issues) and let's discuss how to implement it :)
