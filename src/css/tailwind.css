@@ -62,5 +62,52 @@
 
 
 
+/* BUTTON */
+
+.button{
+  border-radius: 0.400rem;
+  padding: 0.6rem 1.650rem; 
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.neum-grey{
+  background-color: var(--background);
+  box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
+  -0.3rem -0.3rem 0.6rem var(--white);
+  color: var(--primaryNormal);
+}
+.neum-grey:active{
+  box-shadow: inset 6px 5px 13px #0d405029, inset -4px -3px 12px #ffffffc9;
+}
+
+
+.neum-green{
+  background-color: var(--primaryNormal);
+  box-shadow: 8px 8px 10px var(--shadowGrey), -5px -5px 4px var(--white);
+  color: var(--white);
+}
+.neum-green:active{
+  box-shadow: inset 6px 5px 11px #0065569e, inset -3px -3px 12px #ffffff9c;
+}
+
+
+.neum-orange{
+  background-color: var(--orangeNormal);
+  box-shadow: 8px 8px 10px var(--shadowGrey), -5px -5px 4px var(--white);
+  color: var(--white);
+}
+.neum-orange:active{
+  box-shadow: inset 6px 5px 11px #d7642299, inset -3px -3px 12px #ffffff9c;
+}
+
+.neum-red{
+  background-color: var(--danger);
+  box-shadow: 8px 8px 10px var(--shadowGrey), -5px -5px 4px var(--white);
+  color: var(--white);
+}
+.neum-red:active{
+  box-shadow: inset 6px 5px 11px #d61a1ac2, inset -3px -3px 12px #ffffff9c;
+}
 
 
