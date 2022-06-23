@@ -65,7 +65,7 @@
 
 .button{
   border-radius: 0.400rem;
-  padding: 0.6rem 1.650rem; 
+  padding: 0.6rem 1.150rem; 
   text-transform: uppercase;
   font-weight: 700;box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
   -0.3rem -0.3rem 0.6rem var(--white);
