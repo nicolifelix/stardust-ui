@@ -500,6 +500,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.h-6{
+  height: 1.5rem;
+}
+
 .h-16{
   height: 4rem;
 }
@@ -510,6 +514,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-10\/12{
   width: 83.333333%;
+}
+
+.w-6{
+  width: 1.5rem;
 }
 
 .flex-initial{
@@ -555,17 +563,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(21 67 81 / var(--tw-bg-opacity));
 }
 
-.bg-primaryLight{
+.bg-primaryColor{
   --tw-bg-opacity: 1;
-  background-color: rgb(120 203 190 / var(--tw-bg-opacity));
+  background-color: rgb(25 67 82 / var(--tw-bg-opacity));
 }
 
-.bg-primaryNormal{
+.bg-greenNormal{
   --tw-bg-opacity: 1;
   background-color: rgb(0 190 161 / var(--tw-bg-opacity));
 }
 
-.bg-primaryDark{
+.bg-orangeNormal{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 165 113 / var(--tw-bg-opacity));
+}
+
+.bg-danger{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 95 95 / var(--tw-bg-opacity));
+}
+
+.bg-secondaryColor{
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 199 97 / var(--tw-bg-opacity));
+}
+
+.bg-greenDark{
   --tw-bg-opacity: 1;
   background-color: rgb(0 101 86 / var(--tw-bg-opacity));
 }
@@ -573,11 +596,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-orangeLight{
   --tw-bg-opacity: 1;
   background-color: rgb(255 186 146 / var(--tw-bg-opacity));
-}
-
-.bg-orangeNormal{
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 165 113 / var(--tw-bg-opacity));
 }
 
 .bg-orangeDark{
@@ -600,16 +618,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(208 73 226 / var(--tw-bg-opacity));
 }
 
-.bg-greenLight{
-  --tw-bg-opacity: 1;
-  background-color: rgb(108 192 164 / var(--tw-bg-opacity));
-}
-
-.bg-greenDark{
-  --tw-bg-opacity: 1;
-  background-color: rgb(8 153 104 / var(--tw-bg-opacity));
-}
-
 .bg-blueLight{
   --tw-bg-opacity: 1;
   background-color: rgb(105 156 172 / var(--tw-bg-opacity));
@@ -623,11 +631,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-success{
   --tw-bg-opacity: 1;
   background-color: rgb(0 190 161 / var(--tw-bg-opacity));
-}
-
-.bg-danger{
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 95 95 / var(--tw-bg-opacity));
 }
 
 .bg-warning{
@@ -794,45 +797,49 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-primaryColor{
+  --tw-text-opacity: 1;
+  color: rgb(25 67 82 / var(--tw-text-opacity));
+}
+
 .blur{
   --tw-blur: blur(8px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 :root {
-  --primaryLight: #78CBBE;
-  --primaryNormal:#00BEA1;
-  --primaryDark:  #006556;
-  --orangeDark:   #EA7938;
-  --orangeNormal: #FEA571;
-  --orangeLight:  #FFBA92;
-  --pinkLight:    #F39BFF;
-  --pinkNormal:   #D266E1;
-  --pinkDark:     #D049E2;
-  --greenLight:   #6CC0A4;
-  --greenNormal:  #00BA7B;
-  --greenDark:    #089968;
-  --blueLight:    #699CAC;
-  --blueNormal:   #154351;
-  --blueDark:     #0C2D37;
-  --success:      #00BEA1;
-  --danger:       #F55F5F;
-  --warning:      #FF814B;
-  --inactive:     #A7A5A5;
-  --white:        #FFFFFF;
-  --black:        #000000;
-  --background:   #E8E9EB;
-  --bgDark:       #282936;
-  --grey100:      #E8E9EB;
-  --grey200:      #DBDBDC;
-  --grey300:      #CACACC;
-  --grey400:      #B4B4B5;
-  --grey500:      #A5A5A6;
-  --grey600:      #929294;
-  --grey700:      #858585;
-  --grey800:      #6B6A6A;
-  --grey900:      #484847;
-  --shadowGrey:   #0d40501c;
+  --primaryColor:   #194352;
+  --secondaryColor: #F8C761;
+  --greenLight:     #78CBBE;
+  --greenNormal:    #00BEA1;
+  --greenDark:      #006556;
+  --orangeDark:     #EA7938;
+  --orangeNormal:   #FEA571;
+  --orangeLight:    #FFBA92;
+  --pinkLight:      #F39BFF;
+  --pinkNormal:     #D266E1;
+  --pinkDark:       #D049E2;
+  --blueLight:      #699CAC;
+  --blueNormal:     #154351;
+  --blueDark:       #0C2D37;
+  --success:        #00BEA1;
+  --danger:         #F55F5F;
+  --warning:        #FF814B;
+  --inactive:       #A7A5A5;
+  --white:          #FFFFFF;
+  --black:          #000000;
+  --background:     #E8E9EB;
+  --bgDark:         #282936;
+  --grey100:        #E8E9EB;
+  --grey200:        #DBDBDC;
+  --grey300:        #CACACC;
+  --grey400:        #B4B4B5;
+  --grey500:        #A5A5A6;
+  --grey600:        #929294;
+  --grey700:        #858585;
+  --grey800:        #6B6A6A;
+  --grey900:        #484847;
+  --shadowGrey:     #0d40501c;
   --shadowGreen:  rgb(13, 64, 80, 16%);
   --shadowRed:    rgb(13, 64, 80, 16%);
 }
@@ -858,69 +865,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.6rem 1.650rem;
   text-transform: uppercase;
   font-weight: 700;
+  box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
+  -0.3rem -0.3rem 0.6rem var(--white);
 }
 
-.neum-grey{
+.button:active{
+  box-shadow: inset 6px 5px 13px #0000001a, inset -4px -3px 12px #ffffff4a;
+}
+
+/* INPUT */
+
+.input{
+  border-radius: 0.400rem;
+  padding: 0.6rem 1.650rem;
+  text-transform: uppercase;
+  font-weight: 700;
   background-color: var(--background);
   box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
   -0.3rem -0.3rem 0.6rem var(--white);
   color: var(--primaryNormal);
 }
 
-.neum-grey:active{
+.input:focus{
   box-shadow: inset 6px 5px 13px #0d405029, inset -4px -3px 12px #ffffffc9;
-}
-
-.neum-green{
-  background-color: var(--primaryNormal);
-  box-shadow: 8px 8px 10px var(--shadowGrey), -5px -5px 4px var(--white);
-  color: var(--white);
-}
-
-.neum-green:active{
-  box-shadow: inset 6px 5px 11px #0065569e, inset -3px -3px 12px #ffffff9c;
-}
-
-.neum-orange{
-  background-color: var(--orangeNormal);
-  box-shadow: 8px 8px 10px var(--shadowGrey), -5px -5px 4px var(--white);
-  color: var(--white);
-}
-
-.neum-orange:active{
-  box-shadow: inset 6px 5px 11px #d7642299, inset -3px -3px 12px #ffffff9c;
-}
-
-.neum-red{
-  background-color: var(--danger);
-  box-shadow: 8px 8px 10px var(--shadowGrey), -5px -5px 4px var(--white);
-  color: var(--white);
-}
-
-.neum-red:active{
-  box-shadow: inset 6px 5px 11px #d61a1ac2, inset -3px -3px 12px #ffffff9c;
-}
-
-.hover\:bg-primaryDark:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 101 86 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-orangeDark:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 121 56 / var(--tw-bg-opacity));
-}
-
-.hover\:text-xs:hover{
-  font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 0.04em;
-}
-
-.hover\:shadow-lg:hover{
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  outline: none;
 }
 
 @media (min-width: 640px){
@@ -928,5 +896,3 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 3.5rem;
   }
 }
-
-

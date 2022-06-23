@@ -9,39 +9,38 @@
 
 
 :root {
-  --primaryLight: #78CBBE;
-  --primaryNormal:#00BEA1; 
-  --primaryDark:  #006556;
-  --orangeDark:   #EA7938;
-  --orangeNormal: #FEA571;
-  --orangeLight:  #FFBA92;
-  --pinkLight:    #F39BFF;
-  --pinkNormal:   #D266E1;
-  --pinkDark:     #D049E2;
-  --greenLight:   #6CC0A4;
-  --greenNormal:  #00BA7B;
-  --greenDark:    #089968;
-  --blueLight:    #699CAC;
-  --blueNormal:   #154351;
-  --blueDark:     #0C2D37;
-  --success:      #00BEA1;
-  --danger:       #F55F5F;
-  --warning:      #FF814B;
-  --inactive:     #A7A5A5;
-  --white:        #FFFFFF;
-  --black:        #000000;
-  --background:   #E8E9EB;
-  --bgDark:       #282936;
-  --grey100:      #E8E9EB;
-  --grey200:      #DBDBDC;
-  --grey300:      #CACACC;
-  --grey400:      #B4B4B5;
-  --grey500:      #A5A5A6;
-  --grey600:      #929294;
-  --grey700:      #858585;
-  --grey800:      #6B6A6A;
-  --grey900:      #484847;
-  --shadowGrey:   #0d40501c;
+  --primaryColor:   #194352;
+  --secondaryColor: #F8C761;
+  --greenLight:     #78CBBE;
+  --greenNormal:    #00BEA1; 
+  --greenDark:      #006556;
+  --orangeDark:     #EA7938;
+  --orangeNormal:   #FEA571;
+  --orangeLight:    #FFBA92;
+  --pinkLight:      #F39BFF;
+  --pinkNormal:     #D266E1;
+  --pinkDark:       #D049E2;
+  --blueLight:      #699CAC;
+  --blueNormal:     #154351;
+  --blueDark:       #0C2D37;
+  --success:        #00BEA1;
+  --danger:         #F55F5F;
+  --warning:        #FF814B;
+  --inactive:       #A7A5A5;
+  --white:          #FFFFFF;
+  --black:          #000000;
+  --background:     #E8E9EB;
+  --bgDark:         #282936;
+  --grey100:        #E8E9EB;
+  --grey200:        #DBDBDC;
+  --grey300:        #CACACC;
+  --grey400:        #B4B4B5;
+  --grey500:        #A5A5A6;
+  --grey600:        #929294;
+  --grey700:        #858585;
+  --grey800:        #6B6A6A;
+  --grey900:        #484847;
+  --shadowGrey:     #0d40501c;
   --shadowGreen:  rgb(13, 64, 80, 16%);
   --shadowRed:    rgb(13, 64, 80, 16%);
 }
@@ -68,46 +67,27 @@
   border-radius: 0.400rem;
   padding: 0.6rem 1.650rem; 
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 700;box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
+  -0.3rem -0.3rem 0.6rem var(--white);
+}
+.button:active{
+  box-shadow: inset 6px 5px 13px #0000001a, inset -4px -3px 12px #ffffff4a;
 }
 
-.neum-grey{
+
+/* INPUT */
+.input{
+  border-radius: 0.400rem;
+  padding: 0.6rem 1.650rem; 
+  text-transform: uppercase;
+  font-weight: 700;
   background-color: var(--background);
   box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
   -0.3rem -0.3rem 0.6rem var(--white);
   color: var(--primaryNormal);
 }
-.neum-grey:active{
+
+.input:focus{
   box-shadow: inset 6px 5px 13px #0d405029, inset -4px -3px 12px #ffffffc9;
+  outline: none;
 }
-
-
-.neum-green{
-  background-color: var(--primaryNormal);
-  box-shadow: 8px 8px 10px var(--shadowGrey), -5px -5px 4px var(--white);
-  color: var(--white);
-}
-.neum-green:active{
-  box-shadow: inset 6px 5px 11px #0065569e, inset -3px -3px 12px #ffffff9c;
-}
-
-
-.neum-orange{
-  background-color: var(--orangeNormal);
-  box-shadow: 8px 8px 10px var(--shadowGrey), -5px -5px 4px var(--white);
-  color: var(--white);
-}
-.neum-orange:active{
-  box-shadow: inset 6px 5px 11px #d7642299, inset -3px -3px 12px #ffffff9c;
-}
-
-.neum-red{
-  background-color: var(--danger);
-  box-shadow: 8px 8px 10px var(--shadowGrey), -5px -5px 4px var(--white);
-  color: var(--white);
-}
-.neum-red:active{
-  box-shadow: inset 6px 5px 11px #d61a1ac2, inset -3px -3px 12px #ffffff9c;
-}
-
-
