@@ -13,15 +13,94 @@
   </head>
   <body class="font-nunito">
 
-    <div class="p-10 my-10">
+
+    <div class="p-10 my-8">
       <div class="flex justify-center">
-        <button type="button" class="button w-24 neum-grey text-primaryColor text-sm mx-8">
+
+        <div class="circle_back button-back-lg neum-grey mx-8">
+          <button type="button" class="circle_front button-front-lg neum-grey text-primaryColor text-sm">
+            Button
+          </button>
+        </div>
+        
+
+        <div class="circle_back button-back-sm neum-grey mx-8">
+          <button type="button" class="circle_front button-front-sm neum-grey text-primaryColor text-sm">
+            BB
+          </button>
+        </div>
+
+        <div class="circle_back button-back-xs neum-grey mx-8">
+          <button type="button" class="circle_front button-front-xs neum-grey text-primaryColor text-sm">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">  <image id="image0" width="28" height="28" x="0" y="0"
+              href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+          AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAWlBMVEUAAAAAvZ8AvaIAvqEA
+          v58Av58AvqEAvZ8Av6IAvZ8AvqEAvqEAv58AvaEAvqEAvKEAvaEAv58Au58Av6EAv6AAv6MAv6AA
+          vJ8AvaIAv6IAvaIAv6IAvqH///+i3EY+AAAAHHRSTlMAYK+/QBDvgGBw388g0KCggDBAf59Qr1Cf
+          n4+PCauY5QAAAAFiS0dEHesDcZEAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfmBwEANQZN
+          B47JAAAAwElEQVQoz8WR2RaDMAhEiYSkImrTTdvm/7+zWkHT7bn3aYDByUGA/+EqRDcLb2KFMMRd
+          zY2oYCmG2NJs6bB/Cuia4pvqJFuhZr8tWogz4cOamJNJWVumUtbJYUtib3YdHk9fhpRp8QSQGON5
+          LiwpxVBNvYiXMHA1jvOjPOvigIpgaLXXFwlKbZdJuTgRNUuqBgnvyx3E39V0uHErrkyvcTL9EvW1
+          rcAbVC2v8Xwh+CTmm9A91/AVYWZM8Avn4N88AHJQBvZSzNCBAAAAJXRFWHRkYXRlOmNyZWF0ZQAy
+          MDIyLTA3LTAxVDAwOjUzOjA2KzAwOjAwPyqX0wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0wNy0w
+          MVQwMDo1MzowNiswMDowME53L28AAAAASUVORK5CYII=" />
+          </svg>
+          </button>
+        </div>
+
+      </div>
+
+      <div class="flex justify-center mt-10">
+        <div class="highlight">
+          <pre class="chroma">
+            <code class="language-html"> 
+    //lg
+    &lt;div class="circle_back button-back-lg neum-grey mx-8"&gt;
+      &lt;button type="button" class="circle_front button-front-lg neum-grey text-primaryColor text-sm"&gt;
+        Button
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+
+    //sm
+    &lt;div class="circle_back button-back-sm neum-grey mx-8"&gt;
+      &lt;button type="button" class="circle_front button-front-sm neum-grey text-primaryColor text-sm"&gt;
+        BB
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    //xs
+    &ltdiv class="circle_back button-back-xs neum-grey mx-8"&gt;
+      &lt;button type="button" class="circle_front button-front-xs neum-grey text-primaryColor text-sm"&gt;
+        &lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">  <image id="image0" width="28" height="28" x="0" y="0"
+            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+        AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAWlBMVEUAAAAAvZ8AvaIAvqE
+        v58Av58AvqEAvZ8Av6IAvZ8AvqEAvqEAv58AvaEAvqEAvKEAvaEAv58Au58Av6EAv6AAv6MAv6AA
+        vJ8AvaIAv6IAvaIAv6IAvqH///+i3EY+AAAAHHRSTlMAYK+/QBDvgGBw388g0KCggDBAf59Qr1Cf
+        n4+PCauY5QAAAAFiS0dEHesDcZEAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfmBwEANQZN
+        B47JAAAAwElEQVQoz8WR2RaDMAhEiYSkImrTTdvm/7+zWkHT7bn3aYDByUGA/+EqRDcLb2KFMMRd
+        zY2oYCmG2NJs6bB/Cuia4pvqJFuhZr8tWogz4cOamJNJWVumUtbJYUtib3YdHk9fhpRp8QSQGON5
+        LiwpxVBNvYiXMHA1jvOjPOvigIpgaLXXFwlKbZdJuTgRNUuqBgnvyx3E39V0uHErrkyvcTL9EvW1
+        rcAbVC2v8Xwh+CTmm9A91/AVYWZM8Avn4N88AHJQBvZSzNCBAAAAJXRFWHRkYXRlOmNyZWF0ZQAy
+        MDIyLTA3LTAxVDAwOjUzOjA2KzAwOjAwPyqX0wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0wNy0w
+        MVQwMDo1MzowNiswMDowME53L28AAAAASUVORK5CYII=" >
+        &lt;/svg&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+      </div>
+
+    <div class="p-10 my-8">
+      <div class="flex justify-center">
+        <button type="button" class="button w-24 button-grey text-primaryColor text-sm mx-8">
           Button
         </button>
-        <button type="button" class="button w-32 neum-grey text-primaryColor text-sm mx-8">
+        <button type="button" class="button w-32 button-grey text-primaryColor text-sm mx-8">
           Button
         </button>
-        <button type="button" class="button w-48 neum-grey text-primaryColor text-sm mx-8">
+        <button type="button" class="button w-48 button-grey text-primaryColor text-sm mx-8">
           Button
         </button>
       </div>
@@ -52,7 +131,6 @@
           </pre>
         </div>
       </div>
-        
 
       <div class="flex justify-center">
         <button type="button" class="button bg-greenNormal text-white text-sm mx-8">
@@ -114,11 +192,7 @@
         </div>
       </div>
 
-
-
     </div>  
-
-    
 
   </body>
   <script src="/src/js/chroma.js"></script>

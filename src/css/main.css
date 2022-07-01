@@ -496,9 +496,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.5rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mx-8{
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .mt-3{
@@ -525,10 +540,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.h-6{
-  height: 1.5rem;
-}
-
 .h-16{
   height: 4rem;
 }
@@ -537,16 +548,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.25rem;
 }
 
+.h-6{
+  height: 1.5rem;
+}
+
 .w-2\/12{
   width: 16.666667%;
 }
 
 .w-10\/12{
   width: 83.333333%;
-}
-
-.w-6{
-  width: 1.5rem;
 }
 
 .w-24{
@@ -579,6 +590,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-5{
   width: 1.25rem;
+}
+
+.w-6{
+  width: 1.5rem;
 }
 
 .flex-initial{
@@ -771,6 +786,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -861,6 +880,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -920,11 +943,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   -0.3rem -0.3rem 0.6rem var(--white);
   border-radius: 0.625rem;
   border: none;
-  display: flex;
+  display: grid;
   width: 12rem;
   height: 12rem;
   justify-content: center;
   padding: 10px;
+}
+
+.greyBox__lg{
+  align-items: center;
+  background-color: var(--background);
+  box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
+  -0.3rem -0.3rem 0.6rem var(--white);
+  border-radius: 1.2rem;
+  border: none;
+  display: grid;
+  width: 18rem;
+  height: 10rem;
+  justify-content: center;
+  padding: 10px;
+}
+
+.greyBox__lg:active{
+  box-shadow: inset 6px 5px 13px #0000001a, inset -4px -3px 6px #ffffff7d;
+}
+
+.greyBox__lg-img{
+  width: 35px;
+  height: auto;
 }
 
 /* BUTTON */
@@ -939,7 +985,89 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .button:active{
-  box-shadow: inset 6px 5px 13px #0000001a, inset -4px -3px 12px #ffffff4a;
+  box-shadow: inset 6px 5px 13px #0000001a, inset -4px -3px 6px #ffffff2e;
+}
+
+.button-grey{
+  border-radius: 0.400rem;
+  padding: 0.6rem 1.150rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
+  -0.3rem -0.3rem 0.6rem var(--white);
+}
+
+.button-grey:active{
+  box-shadow: inset 6px 5px 13px #00000012, inset -4px -3px 12px #ffffffba;
+}
+
+.circle_back{
+  box-shadow: inset 4px 4px 8px var(--shadowGrey), inset -4px -3px 12px #ffffffc4;
+}
+
+.circle_front{
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 6px 6px 10px var(--shadowGrey), -5px -5px 10px var(--white);
+}
+
+.circle_front:active{
+  box-shadow: inset 6px 5px 13px #00000014, inset -4px -3px 12px #ffffff;
+}
+
+.button-back-lg{
+  padding: 0.65rem;
+  width: 200px;
+  height: 65px;
+  border-radius: 30px;
+}
+
+.button-front-lg{
+  padding: 0.6rem 1.150rem;
+  height: 45px;
+  width: 180px;
+  border-radius: 30px;
+}
+
+.button-back-md{
+  padding: 0.6rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.button-front-md{
+  padding: 1rem 0.8rem;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+
+.button-back-sm{
+  padding: 0.5rem;
+  width: 65px;
+  height: 65px;
+  border-radius: 30px;
+}
+
+.button-front-sm{
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
+
+.button-back-xs{
+  padding: 0.5rem;
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+}
+
+.button-front-xs{
+  padding: 0.4rem;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
 }
 
 /* INPUT */
@@ -959,6 +1087,177 @@ Ensure the default browser behavior of the `hidden` attribute.
 .input:focus{
   box-shadow: inset 6px 5px 13px #0d405029, inset -4px -3px 12px #ffffffc9;
   outline: none;
+}
+
+/*NAVBAR*/
+
+.menu, .menu-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  z-index:10;
+  overflow:hidden;
+  box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
+      -0.3rem -0.3rem 0.6rem var(--white);
+  border: none;
+}
+
+/* .menu li a{
+  display: inline-block;
+  text-indent: -500em;
+  height: 5em;
+  width: 5em;
+  line-height: 5em;
+  text-align:center;
+  color: #72739f;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background 0.1s ease-in-out;
+}
+.menu li a:before {
+  font-family: FontAwesome;
+  speak: none;
+  text-indent: 0em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.4em;
+}
+.menu li a.search:before {
+  content: "\f002";
+}
+.menu li a.archive:before {
+  content: "\f187";
+}
+.menu li a.pencil:before {
+  content: "\f040";
+}
+.menu li a.contact:before {
+  content: "\f003";
+}
+.menu li a.about:before {
+  content: "\f007";
+}
+.menu li a.home:before {
+  content: "\f039";
+}
+.menu-bar li a:hover,
+.menu li a:hover,
+.menu li:first-child a {
+  background: #267fdd;
+  color: #fff;
+}
+.menu-bar{
+    overflow:hidden;
+    left:5em;
+    z-index:5;
+    width:0;
+    height:0;
+    transition: all 0.1s ease-in-out;
+}
+.menu-bar li a{
+  display: block;
+  height: 4em;
+  line-height: 4em;
+  text-align:center;
+  color: #72739f;
+  text-decoration:none;  
+  position: relative;
+  font-family:verdana;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background 0.1s ease-in-out;
+}
+.menu-bar li:first-child a{
+    height:5em;
+    background: #267fdd;
+    color: #fff;    
+    line-height:5
+}
+
+
+.para{
+    color:#033f72;
+    padding-left:100px;
+    font-size:3em;
+    margin-bottom:20px;
+}
+
+.open{
+    width:10em;
+    height:100%;
+}
+
+@media all and (max-width: 500px) {
+    .container{
+        margin-top:100px;
+    }
+    .menu{
+        height:5em;
+        width:100%;
+    }
+    .menu li{
+        display:inline-block;
+    }
+    .menu-bar li a{
+        width:100%;
+    }
+    .menu-bar{
+        width:100%;
+        left:0;
+      bottom: 0;
+        height:0;
+    }
+    .open{
+        width:100%;
+        height:auto;
+    }
+    .para{
+    padding-left:5px;
+}  
+}
+@media screen and (max-height: 34em){
+  .menu li,
+  .menu-bar {
+    font-size:70%;
+  }
+}
+@media screen and (max-height: 34em) and (max-width: 500px){
+  .menu{
+        height:3.5em;
+    }
+} */
+
+.tooltip {
+  position: absolute;
+  background-color: #30305a;
+  white-space: nowrap;
+  padding: .5rem 1rem;
+  border-radius: 6px;
+  left: calc(100% + 1.5rem);
+  transform-origin: center left;
+  transform: scale(0);
+  opacity: 0;
+  transition: .15s ease;
+}
+
+.tooltip:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-color: #30305a;
+  left: -5px;
+  top: 50%;
+  transform: translatey(-50%) rotate(45deg);
+  border-radius: 3px;
 }
 
 @media (min-width: 640px){

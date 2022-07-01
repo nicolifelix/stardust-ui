@@ -32,6 +32,3 @@ tabTogglers.forEach(function(toggler) {
 
 
 
-
-
-
