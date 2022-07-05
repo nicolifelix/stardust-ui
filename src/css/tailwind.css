@@ -45,6 +45,10 @@
   --shadowRed:    rgb(13, 64, 80, 16%);
 }
 
+.h-full{
+  height:100vh;
+}
+
 .greyBox{
   align-items: center;
   background-color: var(--background);
