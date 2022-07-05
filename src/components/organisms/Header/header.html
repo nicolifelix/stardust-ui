@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+    <link rel="stylesheet" href="/src/css/dracula.css">
+    <link rel="stylesheet" href="/src/css/style.css" />
+
+    
+    <title>Stardust</title>
+  </head>
+  <body class="font-nunito">
+      <nav class="header flex items-center justify-between bg-background px-4 py-2 border-b border-white">
+      <!-- logo -->
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <a href="#">
+          <svg class="fill-current h-6 w-6 mr-2 md:w-8 md:h-8" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/>
+          </svg>
+        </a>
+      </div>
+
+
+      <div class="flex justify-end items-center">
+        <!-- alert -->
+       
+
+
+        <div class="flex justify-end items-center">
+            <details  x-data x-ref="dropdown" class="">
+              <summary>
+                <div class=" mr-16 py-2">
+                  <div   class="relative flex circle_front button-front-xxs">
+                    <svg class="flex-1 w-4 h-4 md:w-5 h-5 fill-current" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5 24C47.5 14.258 41.904 7.4964 34.6634 5.46652C34.4013 4.81528 33.9869 4.20986 33.4237 3.70186C31.4993 1.96608 28.5007 1.96608 26.5763 3.70186C26.0143 4.20875 25.6005 4.81263 25.3383 5.46224C18.0884 7.48329 12.5 14.2301 12.5 24C12.5 30.3214 11.1725 33.8635 8.7149 36.4304C8.30401 36.8596 7.19079 37.8427 6.43669 38.5087C6.07989 38.8238 5.80349 39.0679 5.71991 39.1487L5 39.8495V48.0338H20.2199C20.7346 50.5827 22.1752 52.288 24.7805 53.8143C27.9854 55.6918 32.0146 55.6918 35.2195 53.8143C37.5187 52.4673 39.0604 50.3973 39.6858 48.0338H55V39.8495L54.2801 39.1487C54.2043 39.0749 53.9393 38.8402 53.5928 38.5334L53.5926 38.5332L53.5923 38.5329C52.8404 37.8671 51.7056 36.8621 51.2885 36.4247C48.8292 33.8458 47.5 30.2992 47.5 24ZM34.3418 48.0338H25.4465C25.7998 48.6646 26.4018 49.1409 27.385 49.7169C28.9907 50.6576 31.0093 50.6576 32.615 49.7169C33.3585 49.2814 33.9395 48.705 34.3418 48.0338ZM47.6004 39.6658C48.1265 40.2175 49.254 41.2259 50 41.8846V43.2338H10V41.8857C10.7402 41.2347 11.8711 40.2271 12.3962 39.6786C15.7356 36.1906 17.5 31.4827 17.5 24C17.5 14.9278 23.3319 9.62974 30 9.62974C36.6493 9.62974 42.5 14.9551 42.5 24C42.5 31.4587 44.265 36.168 47.6004 39.6658Z" fill="#2D3132"/>
+                    </svg>
+                      <span class="absolute right-0 top-0 rounded-full bg-danger w-4 h-4 top right  m-0 text-white text-xs text-center">5
+                    </span>
+                  </div>
+                </div>
+              </summary>
+              <details-menu role="menu" class=" absolute right-32 md:right-52 mt-2 w-36 md:w-56 rounded-md shadow-lg bg-background ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <div class="py-1" role="none">
+                  <a href="#" class="block px-4 py-2 text-sm text-grey700 hover:text-primaryColor hover:underline" role="menuitem">dasdasdasdasda</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-grey700 hover:text-primaryColor hover:underline" role="menuitem">dasdsadasdasdasd</a> 
+                </div>
+              </details-menu>
+            </details>
+        </div>
+
+
+
+
+
+        <!-- user -->
+        <div class="flex items-center">
+          <img src="../../../img/avatar/Avatar.png" class="flex w-6 h-6 md:w-8 md:h-8 "/>
+          <p class="text-xs md:text-lg px-2 py-1">Samantha</p>
+            <!-- Dropdown menu -->
+            <details  x-data x-ref="dropdown" class="">
+              <summary>
+                <div class="-ml-2 py-2">
+                  <svg class="w-4 h-4 md:h-6 md:w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </summary>
+              <details-menu role="menu" class="origin-top-right absolute right-0 md:right-6 mt-2 w-32 md:w-44 rounded-md shadow-lg bg-background ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <div class="py-1" role="none">
+                  <a href="#" class="block px-4 py-2 text-sm text-grey700 hover:text-primaryColor hover:bg-grey200" role="menuitem">Meu Perfil</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-grey700 hover:text-primaryColor hover:bg-grey200" role="menuitem">Sair</a> 
+                </div>
+              </details-menu>
+            </details>
+        </div>
+      </div>
+    </nav>
+      
+  </body>
+  <script src="/src/js/chroma.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</html>
+
+
+
+

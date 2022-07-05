@@ -165,6 +165,12 @@
   width: 40px;
   border-radius: 30px;
 }
+.button-front-xxs{
+  padding: 0.4rem;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
 
 /* INPUT */
 .input{
@@ -357,3 +363,16 @@
     transform: translatey(-50%) rotate(45deg);
     border-radius: 3px;
   }
+
+
+
+
+/** Hide the `details` chevron icon in Firefox Browsers */
+summary {
+  list-style-type: none;
+}
+
+/** Hide the `details` chevron icon in Safari Browsers */
+summary::-webkit-details-marker {
+  display: none;
+}
