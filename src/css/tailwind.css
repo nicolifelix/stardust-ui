@@ -50,17 +50,12 @@
 }
 
 .greyBox{
-  align-items: center;
   background-color: var(--background);
   box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
   -0.3rem -0.3rem 0.6rem var(--white);
   border-radius: 0.625rem;
   border: none;
-  display: grid;
-  width: 12rem;
-  height: 12rem;
-  justify-content: center;
-  padding: 10px;  
+ 
 }
 
 .greyBox__lg{
@@ -380,3 +375,33 @@ summary {
 summary::-webkit-details-marker {
   display: none;
 }
+
+
+
+
+/* IMAGENS */
+.favorite{
+  width: 15px;
+  height: 14px;
+}
+
+
+
+
+
+.scroll::-webkit-scrollbar{
+        width: 6px;
+        height: 6px;
+      }
+ .scroll::-webkit-scrollbar-thumb{
+        background: #CACACC;
+        border-radius: 13px;
+      }
+ .scroll::-webkit-scrollbar-thumb:hover{
+        background: #CACACC;
+      }
+ .scroll::-webkit-scrollbar-track{
+        background: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: inset 0px 0px 0px 0px #f2f2f2;
+      }

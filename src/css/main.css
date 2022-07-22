@@ -588,12 +588,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.25rem;
 }
 
+.h-32{
+  height: 8rem;
+}
+
 .h-6{
   height: 1.5rem;
 }
 
 .h-4{
   height: 1rem;
+}
+
+.max-h-60{
+  max-height: 15rem;
 }
 
 .w-2\/12{
@@ -668,6 +676,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   list-style-type: none;
 }
 
+.list-disc{
+  list-style-type: disc;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -694,6 +706,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-around{
   justify-content: space-around;
+}
+
+.divide-y > :not([hidden]) ~ :not([hidden]){
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+}
+
+.divide-white > :not([hidden]) ~ :not([hidden]){
+  --tw-divide-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-divide-opacity));
+}
+
+.overflow-y-scroll{
+  overflow-y: scroll;
 }
 
 .rounded-full{
@@ -880,8 +907,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
+.p-24{
+  padding: 6rem;
+}
+
 .p-4{
   padding: 1rem;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .px-6{
@@ -904,19 +939,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 15rem;
 }
 
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-1\.5{
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pl-0{
@@ -925,6 +970,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-3{
   padding-left: 0.75rem;
+}
+
+.pt-7{
+  padding-top: 1.75rem;
+}
+
+.pb-3{
+  padding-bottom: 0.75rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -1076,17 +1141,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .greyBox{
-  align-items: center;
   background-color: var(--background);
   box-shadow: 0.4rem 0.4rem 0.9rem var(--shadowGrey),
   -0.3rem -0.3rem 0.6rem var(--white);
   border-radius: 0.625rem;
   border: none;
-  display: grid;
-  width: 12rem;
-  height: 12rem;
-  justify-content: center;
-  padding: 10px;
 }
 
 .greyBox__lg{
@@ -1416,6 +1475,33 @@ summary {
 
 summary::-webkit-details-marker {
   display: none;
+}
+
+/* IMAGENS */
+
+.favorite{
+  width: 15px;
+  height: 14px;
+}
+
+.scroll::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb{
+  background: #CACACC;
+  border-radius: 13px;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover{
+  background: #CACACC;
+}
+
+.scroll::-webkit-scrollbar-track{
+  background: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 0px #f2f2f2;
 }
 
 .hover\:bg-grey200:hover{
