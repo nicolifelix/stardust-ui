@@ -903,6 +903,46 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(72 72 71 / var(--tw-bg-opacity));
 }
 
+.bg-careLine{
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 51 62 / var(--tw-bg-opacity));
+}
+
+.bg-careGoals{
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 64 78 / var(--tw-bg-opacity));
+}
+
+.bg-followUp{
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 67 82 / var(--tw-bg-opacity));
+}
+
+.bg-examsList{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 89 109 / var(--tw-bg-opacity));
+}
+
+.bg-medicationList{
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 102 125 / var(--tw-bg-opacity));
+}
+
+.bg-familyBackground{
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 115 140 / var(--tw-bg-opacity));
+}
+
+.bg-vaccines{
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 127 156 / var(--tw-bg-opacity));
+}
+
+.bg-medCertificate{
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 140 172 / var(--tw-bg-opacity));
+}
+
 .p-2{
   padding: 0.5rem;
 }
