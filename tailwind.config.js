@@ -45,7 +45,7 @@ module.exports = {
       examsList:      '#22596D1C',
       medicationList: '#26667D1C',
       familyBackground:'#2B738C1C',
-      careLine:       '#307F9C1C',
+      vaccines:       '#307F9C1C',
       medCertificate: '#358CAC1C',
     },
     fontSize:{
