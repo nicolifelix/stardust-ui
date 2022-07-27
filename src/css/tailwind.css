@@ -394,11 +394,11 @@ summary::-webkit-details-marker {
         height: 6px;
       }
  .scroll::-webkit-scrollbar-thumb{
-        background: #CACACC;
+        background: #858585;
         border-radius: 13px;
       }
  .scroll::-webkit-scrollbar-thumb:hover{
-        background: #CACACC;
+        background: #858585;
       }
  .scroll::-webkit-scrollbar-track{
         background: #f2f2f2;

@@ -38,7 +38,15 @@ module.exports = {
       grey700:        '#858585',
       grey800:        '#6B6A6A',
       grey900:        '#484847', 
-      mgreen:         '#008774'
+      mgreen:         '#008774',
+      careLine:       '#13333E1C',
+      careGoals:      '#18404E1C',
+      followUp:       '#1943521C',
+      examsList:      '#22596D1C',
+      medicationList: '#26667D1C',
+      familyBackground:'#2B738C1C',
+      careLine:       '#307F9C1C',
+      medCertificate: '#358CAC1C',
     },
     fontSize:{
       xs:     ['11px', { lineHeight: '16px', letterSpacing: '0.04em' }],
