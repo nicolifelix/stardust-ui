@@ -588,6 +588,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 4rem;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
+.h-20{
+  height: 5rem;
+}
+
 .h-5{
   height: 1.25rem;
 }
@@ -690,6 +698,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.items-end{
+  align-items: flex-end;
 }
 
 .items-center{
@@ -1538,6 +1550,53 @@ summary::-webkit-details-marker {
   background: #f2f2f2;
   border-radius: 10px;
   box-shadow: inset 0px 0px 0px 0px #f2f2f2;
+}
+
+.loader {
+}
+
+.loader span{
+  margin: auto;
+}
+
+.ball{
+  border-radius:50%;
+  -webkit-animation: bounce .5s alternate
+infinite;
+          animation: bounce .5s alternate
+infinite;
+}
+
+.ball:nth-child(2){
+  -webkit-animation-delay:.16s;
+          animation-delay:.16s;
+}
+
+.ball:nth-child(3){
+  -webkit-animation-delay:.32s;
+          animation-delay:.32s;
+}
+
+@-webkit-keyframes bounce{
+  from{
+    transform:scaleX(1.25);
+  }
+
+  to{
+    transform:
+translateY(-50px)scaleX(1);
+  }
+}
+
+@keyframes bounce{
+  from{
+    transform:scaleX(1.25);
+  }
+
+  to{
+    transform:
+translateY(-50px)scaleX(1);
+  }
 }
 
 .hover\:bg-grey200:hover{
