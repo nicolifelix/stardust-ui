@@ -408,11 +408,7 @@ summary::-webkit-details-marker {
 
 
 
-.loader {
 
-
-
-      }
 .loader span{
 
 margin: auto;
@@ -437,4 +433,13 @@ to{
 transform:
 translateY(-50px)scaleX(1);
 }
+}
+
+
+
+.demo-2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 30px;
 }
