@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+    <link rel="stylesheet" href="/src/css/dracula.css">
+    <link rel="stylesheet" href="/src/css/style.css" />
+
+    <title>Stardust</title>
+  </head>
+  <body class="font-nunito">
+    <div class="p-10 my-10">
+
+      <div class="flex justify-center mt-5">
+        <form class="w-5/6">
+          <div class="flex justify-between mt-1">
+            <div class="item">
+              <label class="normal-label">Nome do Medicamento*</label>
+              <input class="normal-input" type="text" id="name" name="user_name">
+              <p class="error-text">Campo Obrigatório!</p>
+            </div>
+            <div class="item">
+              <label class="normal-label">Dosagem*</label>
+              <select class="normal-input w-24">
+                <option class="option-normal">Really long option that will likely overlap the chevron</option>
+                <option class="option-normal">Option 2</option>
+                <option class="option-normal">Option 3</option>
+              </select>
+              <p class="error-text">Campo Obrigatório!</p>
+            </div>
+            <div class="item">
+              <label class="normal-label">Unidade*</label>
+              <input class="normal-input w-24" type="text" id="name" name="user_name">
+              <p class="error-text">Campo Obrigatório!</p>
+            </div>
+            <div class="item">
+              <label class="normal-label">Via*</label>
+              <input class="normal-input w-24" type="text" id="name" name="user_name">
+              <p class="error-text">Campo Obrigatório!</p>
+            </div>
+          </div>
+          <div class="flex justify-between mt-1">
+            <div class="item">
+              <label class="normal-label">Tempo de Infusão</label>
+              <input class="normal-input w-24" type="text" id="name" name="user_name">
+            </div>
+            <div class="item">
+              <label class="normal-label">Via de Infusão</label>
+              <input class="normal-input w-24" type="text" id="name" name="user_name">
+            </div>
+            <div class="item">
+              <label class="normal-label">Frequência*</label>
+              <input class="normal-input w-24" type="text" id="name" name="user_name">
+              <p class="error-text">Campo Obrigatório!</p>
+            </div>
+            <div class="item">
+              <label class="normal-label">Período*</label>
+              <input class="normal-input w-24" type="text" id="name" name="user_name">
+              <p class="error-text">Campo Obrigatório!</p>
+            </div>
+          </div>
+          <div class="flex justify-between mt-1">
+            <div class="item">
+              <label class="normal-label">Observação</label>
+              <input class="normal-input " type="text" id="name" name="user_name">
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+
+      
+
+
+ 
+
+
+
+
+
+
+<!-- RADIO -->
+      <div class="mt-6">
+        <p class="text-md text-grey800">O paciente apresenta algum problema de saúde (pressão alta, diabetes, colesterol elevado, hipotireoidismo, câncer, artrose ou toma medicamentos)?</p>
+        <div class="flex items-baseline mt-3">
+          <div class="flex items-center mr-3">
+            <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-primaryColor bg-grey100 border-grey800">
+            <label for="default-radio-1" class="ml-2 text-sm font-medium text-grey800">Default radio</label>
+          </div>
+          <div class="flex items-center  mr-3">
+            <input checked="" id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-primaryColor bg-grey100 border-grey800">
+            <label for="default-radio-2" class="ml-2 text-sm font-medium text-grey800">Checked state</label>
+          </div>
+        </div>
+      </div>
+
+
+<!-- CHECKBOX -->   
+<div class="mt-6">
+  <p class="text-md text-grey800">O paciente apresenta algum problema de saúde (pressão alta, diabetes, colesterol elevado, hipotireoidismo, câncer, artrose ou toma medicamentos)?</p>
+  <div class="flex items-center mt-3 mb-2">
+    <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-primaryColor bg-grey100 border-grey800">
+    <label for="default-checkbox" class="ml-2 text-sm font-medium text-grey800">Default checkbox</label>
+  </div>
+  <div class="flex items-center mb-2">
+    <input id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-primaryColor bg-grey100 border-grey800">
+    <label for="checked-checkbox" class="ml-2 text-sm font-medium text-grey800">Checked state</label>
+  </div>
+  <div class="flex items-center mb-2">
+    <input id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-primaryColor bg-grey100 border-grey800">
+    <label for="checked-checkbox" class="ml-2 text-sm font-medium text-grey800">Checked state</label>
+  </div>
+</div>   
+
+
+      
+
+
+  </div>
+
+
+
+      
+
+      <div class="flex justify-center mt-10">
+        <div class="highlight">
+          <pre class="chroma">
+            <code class="language-html">
+              &lt;div class="greyBox"&gt;
+              &lt!-- content --&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+      </div>
+    </div>  
+   
+  </body>
+  <script src="/src/js/chroma.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</html>
+
+
+
+
