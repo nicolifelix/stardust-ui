@@ -350,6 +350,7 @@ summary::-webkit-details-marker {
   margin: 0 0.5rem;
   font-size:  14px;
   color: var(--grey800);
+  outline: none;
 }
 
 .option-normal{
@@ -361,6 +362,7 @@ summary::-webkit-details-marker {
   font-size: 12px;
   margin: 0;
   padding: 0 0.5rem;
+  
 }
 
 

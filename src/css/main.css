@@ -704,6 +704,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1rem;
 }
 
+.w-5\/6{
+  width: 83.333333%;
+}
+
 .w-28{
   width: 7rem;
 }
@@ -742,24 +746,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-36{
   width: 9rem;
-}
-
-.w-screen{
-  width: 100vw;
-}
-
-.w-max{
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.w-full{
-  width: 100%;
-}
-
-.w-5\/6{
-  width: 83.333333%;
 }
 
 .flex-initial{
@@ -1701,6 +1687,7 @@ summary::-webkit-details-marker {
   margin: 0 0.5rem;
   font-size:  14px;
   color: var(--grey800);
+  outline: none;
 }
 
 .option-normal{
