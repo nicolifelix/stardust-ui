@@ -44,6 +44,7 @@ module.exports = {
       followUp:       '#194352',
       examsList:      '#22596D',
       medicationList: '#26667D',
+      scheduling:     '#246075',
       familyBackground:'#2B738C',
       vaccines:       '#307F9C',
       medCertificate: '#358CAC',
