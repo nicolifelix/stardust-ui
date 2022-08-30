@@ -175,7 +175,7 @@
 .input{
   border-radius: 0.400rem;
   padding: 0.6rem 1.5rem; 
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 600;
   font-size: 14px;
   background-color: var(--background);
