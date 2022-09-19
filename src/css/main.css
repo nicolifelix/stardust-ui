@@ -1500,7 +1500,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .input{
   border-radius: 0.400rem;
   padding: 0.6rem 1.5rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 600;
   font-size: 14px;
   background-color: var(--background);
@@ -1511,6 +1511,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .input:focus{
   box-shadow: inset 6px 5px 13px #0d405029, inset -4px -3px 12px #ffffffc9;
+  outline: none;
+}
+
+.input-normal{
+  border-radius: 0.400rem;
+  padding: 0.6rem 1.5rem;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--background);
+  border: solid 1px var(--grey800);
+  color: var(--primaryNormal);
+}
+
+.input-normal:focus{
   outline: none;
 }
 
